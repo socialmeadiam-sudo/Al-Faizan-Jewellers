@@ -1,0 +1,2232 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Faizan Jewellers | Jewellery Store in Orangi Town, Karachi</title>
+  <meta name="description" content="Al Faizan Jewellers in Sector 15 C, Orangi Town, Karachi. Explore jewellery collections including rings, necklaces, earrings, bangles and bridal jewellery, and contact us by phone or WhatsApp.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Al Faizan Jewellers | Jewellery Store in Orangi Town, Karachi">
+  <meta property="og:description" content="Explore elegant jewellery at Al Faizan Jewellers in Sector 15 C, Orangi Town, Karachi. Rings, necklaces, earrings, bangles, bracelets and bridal jewellery.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&h=630&fit=crop">
+  <!-- Font Awesome Icons -->
+  <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_Z3Z5KjaYRseSt7pwc94Ll7bJ" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* ---------- RESET & GLOBAL ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --black: #0d0d0d;
+      --charcoal: #1a1a1a;
+      --charcoal-light: #2a2a2a;
+      --gold: #c9a84c;
+      --gold-light: #e2c87a;
+      --gold-dark: #a8872e;
+      --ivory: #faf6ef;
+      --ivory-warm: #f3ece0;
+      --white: #ffffff;
+      --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.06);
+      --shadow-md: 0 16px 40px rgba(0, 0, 0, 0.1);
+      --shadow-gold: 0 8px 30px rgba(201, 168, 76, 0.15);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --transition: all 0.3s ease;
+      --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      --font-display: 'Georgia', 'Times New Roman', serif;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--ivory);
+      color: var(--charcoal);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+      object-fit: cover;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- BUTTONS ---------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 32px;
+      border-radius: 60px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      transition: var(--transition);
+      border: none;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: var(--white);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .btn-gold:hover {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      transform: translateY(-3px);
+      box-shadow: 0 14px 40px rgba(201, 168, 76, 0.3);
+    }
+
+    .btn-outline-gold {
+      background: transparent;
+      border: 1.5px solid var(--gold);
+      color: var(--gold);
+    }
+
+    .btn-outline-gold:hover {
+      background: var(--gold);
+      color: var(--black);
+      transform: translateY(-3px);
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: var(--white);
+    }
+
+    .btn-whatsapp:hover {
+      background: #1eb854;
+      transform: translateY(-3px);
+    }
+
+    .btn-dark {
+      background: var(--charcoal);
+      color: var(--gold);
+    }
+
+    .btn-dark:hover {
+      background: var(--black);
+      transform: translateY(-3px);
+    }
+
+    .btn-block {
+      width: 100%;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: 2.6rem;
+      margin-bottom: 16px;
+      color: var(--black);
+      font-weight: 400;
+    }
+
+    .section-sub {
+      font-size: 1.05rem;
+      color: #5a5a5a;
+      max-width: 680px;
+      margin-bottom: 40px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-center .section-sub {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      padding: 6px 20px;
+      border-radius: 30px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(13, 13, 13, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 24px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--gold);
+      letter-spacing: 1px;
+      line-height: 1.2;
+    }
+
+    .logo span {
+      display: block;
+      font-family: var(--font);
+      font-size: 0.6rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.75);
+      transition: var(--transition);
+      position: relative;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--gold);
+    }
+
+    .nav-links a.active::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 1.6rem;
+      cursor: pointer;
+      color: var(--gold);
+      background: none;
+      border: none;
+    }
+
+    /* mobile menu */
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      background: var(--charcoal);
+      padding: 20px 24px 30px;
+      border-top: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .mobile-menu a {
+      padding: 14px 0;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.8);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .mobile-menu a:hover {
+      color: var(--gold);
+    }
+
+    .mobile-menu .btn {
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .mobile-menu.active {
+      display: flex;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      padding: 80px 0 100px;
+      background: linear-gradient(135deg, var(--black) 0%, var(--charcoal) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.08), transparent 70%);
+      border-radius: 50%;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 3.4rem;
+      color: var(--white);
+      margin-bottom: 20px;
+      font-weight: 400;
+      line-height: 1.15;
+    }
+
+    .hero h1 em {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 36px;
+      max-width: 520px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .hero-badges {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .hero-badges span {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-badges i {
+      color: var(--gold);
+      font-size: 0.9rem;
+    }
+
+    .hero-image {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+      position: relative;
+      aspect-ratio: 4/5;
+    }
+
+    .hero-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      border-radius: 8px;
+      pointer-events: none;
+      margin: 12px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .hero-image:hover img {
+      transform: scale(1.04);
+    }
+
+    /* ---------- ABOUT ---------- */
+    .about {
+      padding: 100px 0;
+      background: var(--ivory);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .about-image {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      aspect-ratio: 4/5;
+      position: relative;
+    }
+
+    .about-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(201, 168, 76, 0.4);
+      border-radius: 8px;
+      pointer-events: none;
+      margin: 12px;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about-content h2 {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+      color: var(--black);
+      font-weight: 400;
+    }
+
+    .about-content p {
+      color: #5a5a5a;
+      margin-bottom: 20px;
+    }
+
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 28px 0;
+    }
+
+    .category-pills span {
+      background: transparent;
+      border: 1px solid rgba(201, 168, 76, 0.4);
+      padding: 8px 20px;
+      border-radius: 30px;
+      font-size: 0.82rem;
+      color: var(--charcoal);
+      letter-spacing: 0.5px;
+    }
+
+    /* ---------- CATEGORY GRID ---------- */
+    .categories {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .category-card {
+      background: var(--ivory);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: var(--transition);
+      cursor: pointer;
+      border: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .category-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-gold);
+      border-color: rgba(201, 168, 76, 0.5);
+    }
+
+    .category-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .category-card h3 {
+      padding: 22px 22px 8px;
+      font-size: 1.15rem;
+      font-family: var(--font-display);
+      font-weight: 400;
+    }
+
+    .category-card p {
+      padding: 0 22px 22px;
+      color: #6b6b6b;
+      font-size: 0.9rem;
+    }
+
+    /* ---------- FEATURED COLLECTION ---------- */
+    .collection {
+      padding: 100px 0;
+      background: var(--ivory);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      background: var(--white);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: var(--transition);
+      border: 1px solid rgba(201, 168, 76, 0.15);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-gold);
+      border-color: rgba(201, 168, 76, 0.4);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 22px 20px 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-info h4 {
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+      font-family: var(--font-display);
+      font-weight: 400;
+    }
+
+    .product-info p {
+      font-size: 0.85rem;
+      color: #6b6b6b;
+      margin-bottom: 12px;
+    }
+
+    .product-category {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .price-ask {
+      font-size: 0.8rem;
+      color: var(--gold-dark);
+      font-weight: 500;
+      margin-bottom: 14px;
+      letter-spacing: 0.5px;
+    }
+
+    .product-info .btn {
+      padding: 11px 18px;
+      font-size: 0.72rem;
+      margin-top: auto;
+      border-radius: 4px;
+    }
+
+    /* ---------- OCCASION ---------- */
+    .occasion {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .occasion-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .occasion-card {
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      aspect-ratio: 3/4;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      border: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .occasion-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .occasion-card:hover img {
+      transform: scale(1.06);
+    }
+
+    .occasion-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 35px 24px 28px;
+      background: linear-gradient(to top, rgba(13, 13, 13, 0.85), transparent);
+      color: white;
+    }
+
+    .occasion-overlay h3 {
+      font-size: 1.25rem;
+      margin-bottom: 6px;
+      font-family: var(--font-display);
+      font-weight: 400;
+      color: var(--gold);
+    }
+
+    .occasion-overlay p {
+      font-size: 0.88rem;
+      opacity: 0.85;
+    }
+
+    /* ---------- WHY CHOOSE ---------- */
+    .why-choose {
+      padding: 100px 0;
+      background: var(--ivory);
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .feature-card {
+      background: var(--white);
+      padding: 44px 30px;
+      border-radius: 8px;
+      text-align: center;
+      transition: var(--transition);
+      border: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-gold);
+      border-color: rgba(201, 168, 76, 0.4);
+    }
+
+    .feature-card i {
+      font-size: 2rem;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      font-family: var(--font-display);
+      font-weight: 400;
+    }
+
+    .feature-card p {
+      color: #6b6b6b;
+      font-size: 0.9rem;
+    }
+
+    /* ---------- CARE SECTION ---------- */
+    .care {
+      padding: 100px 0;
+      background: var(--charcoal);
+      color: var(--white);
+    }
+
+    .care .section-title {
+      color: var(--white);
+    }
+
+    .care .section-sub {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .care-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .care-image {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+      aspect-ratio: 4/3;
+    }
+
+    .care-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .care-list {
+      list-style: none;
+    }
+
+    .care-list li {
+      display: flex;
+      gap: 18px;
+      margin-bottom: 24px;
+      align-items: flex-start;
+    }
+
+    .care-list li i {
+      color: var(--gold);
+      font-size: 1.1rem;
+      margin-top: 4px;
+    }
+
+    .care-list li p {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.95rem;
+    }
+
+    /* ---------- GALLERY ---------- */
+    .gallery {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-item {
+      border-radius: 8px;
+      overflow: hidden;
+      aspect-ratio: 1/1;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      border: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.02);
+      box-shadow: var(--shadow-gold);
+      border-color: rgba(201, 168, 76, 0.5);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.96);
+      z-index: 2000;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .lightbox.active {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 85%;
+      border-radius: 8px;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(201, 168, 76, 0.3);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      font-size: 2.5rem;
+      color: var(--gold);
+      cursor: pointer;
+      background: none;
+      border: none;
+      transition: var(--transition);
+    }
+
+    .lightbox-close:hover {
+      color: var(--gold-light);
+    }
+
+    /* ---------- EXPERIENCE ---------- */
+    .experience {
+      padding: 100px 0;
+      background: var(--ivory);
+    }
+
+    .experience-box {
+      background: var(--charcoal);
+      padding: 70px 56px;
+      border-radius: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      border: 1px solid rgba(201, 168, 76, 0.2);
+    }
+
+    .experience-box h2 {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      margin-bottom: 14px;
+      color: var(--white);
+      font-weight: 400;
+    }
+
+    .experience-box p {
+      max-width: 580px;
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 1rem;
+    }
+
+    /* ---------- HOW TO ---------- */
+    .how-to {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .step {
+      background: var(--ivory);
+      padding: 50px 32px;
+      border-radius: 8px;
+      text-align: center;
+      transition: var(--transition);
+      border: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .step:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-gold);
+      border-color: rgba(201, 168, 76, 0.4);
+    }
+
+    .step .number {
+      font-family: var(--font-display);
+      font-size: 2.8rem;
+      font-weight: 400;
+      color: var(--gold);
+      margin-bottom: 16px;
+      line-height: 1;
+    }
+
+    .step i {
+      font-size: 1.8rem;
+      color: var(--charcoal);
+      margin-bottom: 22px;
+      display: block;
+    }
+
+    .step h3 {
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+      font-family: var(--font-display);
+      font-weight: 400;
+    }
+
+    .step p {
+      color: #6b6b6b;
+      font-size: 0.9rem;
+    }
+
+    /* ---------- LOCATION ---------- */
+    .location {
+      padding: 100px 0;
+      background: var(--ivory);
+    }
+
+    .location-card {
+      background: linear-gradient(135deg, var(--charcoal), var(--black));
+      color: white;
+      padding: 70px 56px;
+      border-radius: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      border: 1px solid rgba(201, 168, 76, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .location-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.1), transparent 70%);
+      border-radius: 50%;
+    }
+
+    .location-card h2 {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: var(--gold);
+      font-weight: 400;
+      position: relative;
+      z-index: 1;
+    }
+
+    .location-card p {
+      font-size: 1rem;
+      opacity: 0.85;
+      margin-bottom: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .location-card .btn {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ---------- CONTACT (NO IMAGES) ---------- */
+    .contact {
+      padding: 100px 0;
+      background: var(--white);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 70px;
+    }
+
+    .contact-info h3 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      margin-bottom: 36px;
+      font-weight: 400;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 32px;
+      align-items: flex-start;
+    }
+
+    .contact-item i {
+      font-size: 1.2rem;
+      color: var(--gold);
+      width: 30px;
+      margin-top: 5px;
+    }
+
+    .contact-item h4 {
+      font-size: 0.75rem;
+      margin-bottom: 4px;
+      color: var(--gold-dark);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .contact-item p,
+    .contact-item a {
+      color: #4f4f4f;
+      font-size: 0.95rem;
+      transition: var(--transition);
+    }
+
+    .contact-item a:hover {
+      color: var(--gold-dark);
+    }
+
+    .contact-form {
+      background: var(--ivory);
+      padding: 48px;
+      border-radius: 8px;
+      border: 1px solid rgba(201, 168, 76, 0.2);
+    }
+
+    .contact-form h3 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      margin-bottom: 28px;
+      font-weight: 400;
+    }
+
+    .form-group {
+      margin-bottom: 22px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--charcoal);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 15px 18px;
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      border-radius: 4px;
+      font-family: var(--font);
+      font-size: 0.95rem;
+      transition: var(--transition);
+      background: var(--white);
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.1);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    /* ---------- FAQ ---------- */
+    .faq {
+      padding: 100px 0;
+      background: var(--ivory);
+    }
+
+    .faq-list {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 26px 0;
+      font-size: 1.05rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      color: var(--charcoal);
+      font-family: var(--font);
+      transition: var(--transition);
+      letter-spacing: 0.2px;
+    }
+
+    .faq-question:hover {
+      color: var(--gold-dark);
+    }
+
+    .faq-question i {
+      transition: transform 0.3s;
+      color: var(--gold);
+      font-size: 0.85rem;
+    }
+
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s;
+      padding: 0 0 0;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+      padding: 0 0 26px;
+    }
+
+    .faq-answer p {
+      color: #6b6b6b;
+      font-size: 0.95rem;
+    }
+
+    /* ---------- FINAL CTA ---------- */
+    .final-cta {
+      padding: 100px 0;
+      background: var(--charcoal);
+      color: white;
+      text-align: center;
+      border-top: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    .final-cta h2 {
+      font-family: var(--font-display);
+      font-size: 2.8rem;
+      margin-bottom: 18px;
+      font-weight: 400;
+      color: var(--gold);
+    }
+
+    .final-cta p {
+      font-size: 1.05rem;
+      max-width: 620px;
+      margin: 0 auto 40px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .final-cta .btn {
+      margin: 0 8px;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer {
+      background: var(--black);
+      color: #999;
+      padding: 70px 0 30px;
+      border-top: 1px solid rgba(201, 168, 76, 0.1);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 50px;
+      margin-bottom: 50px;
+    }
+
+    .footer-brand h3 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--gold);
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+
+    .footer-brand p {
+      font-size: 0.88rem;
+      margin-bottom: 10px;
+      color: #888;
+    }
+
+    .footer-brand a {
+      color: #bbb;
+      transition: var(--transition);
+    }
+
+    .footer-brand a:hover {
+      color: var(--gold);
+    }
+
+    .footer-links h4,
+    .footer-contact h4 {
+      color: var(--gold);
+      font-size: 0.78rem;
+      margin-bottom: 22px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .footer-links a {
+      display: block;
+      font-size: 0.88rem;
+      color: #888;
+      margin-bottom: 12px;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--gold);
+    }
+
+    .footer-contact p {
+      font-size: 0.88rem;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    .footer-contact a {
+      color: #bbb;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 28px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: #666;
+    }
+
+    /* ---------- BACK TO TOP ---------- */
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      box-shadow: 0 8px 25px rgba(201, 168, 76, 0.3);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition);
+      z-index: 900;
+      border: none;
+    }
+
+    .back-to-top.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-to-top:hover {
+      background: var(--gold-light);
+      transform: translateY(-4px);
+    }
+
+    /* ---------- SCROLL ANIMATIONS ---------- */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .hero h1 {
+        font-size: 2.8rem;
+      }
+
+      .steps {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      .hero-grid,
+      .about-grid,
+      .care-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+      }
+
+      .hero h1 {
+        font-size: 2.4rem;
+      }
+
+      .hero-image {
+        order: -1;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .about-image {
+        order: -1;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .care-image {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 0 18px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .hero-buttons .btn {
+        width: 100%;
+      }
+
+      .experience-box {
+        padding: 44px 28px;
+      }
+
+      .experience-box h2 {
+        font-size: 1.8rem;
+      }
+
+      .location-card {
+        padding: 44px 28px;
+      }
+
+      .location-card h2 {
+        font-size: 1.7rem;
+      }
+
+      .contact-form {
+        padding: 32px 24px;
+      }
+
+      .final-cta h2 {
+        font-size: 2rem;
+      }
+
+      .final-cta .btn {
+        margin: 6px 0;
+        width: 100%;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      .lightbox-close {
+        top: 20px;
+        right: 24px;
+        font-size: 2rem;
+      }
+
+      .product-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .product-card img {
+        height: 160px;
+      }
+
+      .category-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .category-card img {
+        height: 150px;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .product-grid,
+      .category-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .navbar {
+        padding: 12px 18px;
+      }
+
+      .logo {
+        font-size: 1.2rem;
+      }
+
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header id="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Al Faizan Jewellers<span>Sector 15 C · Orangi Town · Karachi</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#collections">Collections</a>
+        <a href="#jewellery">Jewellery</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener" class="btn btn-whatsapp" style="padding:10px 22px;">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#collections">Collections</a>
+      <a href="#jewellery">Jewellery</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp Us
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content fade-up">
+          <span class="badge">Orangi Town · Karachi</span>
+          <h1>Timeless <em>Jewellery</em>, Crafted for Every Special Moment</h1>
+          <p>Discover elegant jewellery styles and timeless pieces at Al Faizan Jewellers in Sector 15 C, Orangi Town, Karachi.</p>
+          <div class="hero-buttons">
+            <a href="#collections" class="btn btn-gold">Explore Collection</a>
+            <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+          </div>
+          <div class="hero-badges">
+            <span><i class="fas fa-gem"></i> Elegant Designs</span>
+            <span><i class="fas fa-clock"></i> Timeless Style</span>
+            <span><i class="fas fa-hand-holding-heart"></i> Personal Service</span>
+          </div>
+        </div>
+        <div class="hero-image fade-up">
+          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=1000&fit=crop" alt="Elegant gold jewellery pieces on display" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-image fade-up">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=1000&fit=crop" alt="Gold jewellery collection in a store display" loading="lazy">
+        </div>
+        <div class="about-content fade-up">
+          <h2>About Al Faizan Jewellers</h2>
+          <p>Al Faizan Jewellers is a local jewellery business serving customers in Sector 15 C, Orangi Town, Karachi. We offer a selection of jewellery pieces for different occasions and personal styles.</p>
+          <p>Our collection includes jewellery for everyday wear, weddings, engagements, and special gifts. Customers can explore traditional and modern designs and inquire about available pieces.</p>
+          <div class="category-pills">
+            <span>Everyday Jewellery</span>
+            <span>Wedding Jewellery</span>
+            <span>Bridal Jewellery</span>
+            <span>Engagement Jewellery</span>
+            <span>Traditional Jewellery</span>
+            <span>Gift Jewellery</span>
+          </div>
+          <a href="#collections" class="btn btn-outline-gold">View Collections</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COLLECTIONS ================= -->
+    <section class="categories" id="collections">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Jewellery Collections</h2>
+          <p class="section-sub fade-up">Explore our range of jewellery categories, each with its own timeless appeal.</p>
+        </div>
+        <div class="category-grid">
+          <div class="category-card fade-up">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=300&fit=crop" alt="Gold rings collection" loading="lazy">
+            <h3>Gold Rings</h3>
+            <p>Elegant rings for everyday wear and special occasions.</p>
+          </div>
+          <div class="category-card fade-up">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop" alt="Gold necklaces" loading="lazy">
+            <h3>Necklaces</h3>
+            <p>Classic and statement necklace styles.</p>
+          </div>
+          <div class="category-card fade-up">
+            <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?w=400&h=300&fit=crop" alt="Gold earrings" loading="lazy">
+            <h3>Earrings</h3>
+            <p>Elegant earrings for different occasions.</p>
+          </div>
+       
+          <div class="category-card fade-up">
+            <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=300&fit=crop" alt="Gold bracelets" loading="lazy">
+            <h3>Bracelets</h3>
+            <p>Stylish bracelet designs.</p>
+          </div>
+          <div class="category-card fade-up">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=300&fit=crop" alt="Gold chains" loading="lazy">
+            <h3>Chains</h3>
+            <p>Classic chain styles.</p>
+          </div>
+          <div class="category-card fade-up">
+            <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=400&h=300&fit=crop" alt="Gold pendants" loading="lazy">
+            <h3>Pendants</h3>
+            <p>Elegant pendant pieces.</p>
+          </div>
+       
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED JEWELLERY ================= -->
+    <section class="collection" id="jewellery">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Featured Jewellery</h2>
+          <p class="section-sub fade-up">Explore some of the jewellery pieces available at our store. Contact us on WhatsApp for availability and prices.</p>
+        </div>
+        <div class="product-grid">
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=300&fit=crop" alt="Classic gold ring" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Rings</span>
+              <h4>Classic Gold Ring</h4>
+              <p>Timeless design for everyday elegance.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Classic%20Gold%20Ring." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop" alt="Elegant gold necklace" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Necklaces</span>
+              <h4>Elegant Gold Necklace</h4>
+              <p>Sophisticated design for special occasions.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Elegant%20Gold%20Necklace." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?w=400&h=300&fit=crop" alt="Traditional gold earrings" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Earrings</span>
+              <h4>Traditional Gold Earrings</h4>
+              <p>Classic earrings for traditional wear.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Traditional%20Gold%20Earrings." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+       
+          
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=300&fit=crop" alt="Gold bracelet" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Bracelets</span>
+              <h4>Gold Bracelet</h4>
+              <p>Elegant bracelet for daily or special wear.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Gold%20Bracelet." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=400&h=300&fit=crop" alt="Pendant set" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Pendants</span>
+              <h4>Pendant Set</h4>
+              <p>Refined pendant for a delicate look.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Pendant%20Set." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+       
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=300&fit=crop" alt="Bridal jewellery set" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Bridal</span>
+              <h4>Bridal Jewellery Set</h4>
+              <p>Complete set for bridal occasions.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Bridal%20Jewellery%20Set." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=300&fit=crop" alt="Engagement ring" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Engagement</span>
+              <h4>Engagement Ring</h4>
+              <p>Elegant ring for engagement moments.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Engagement%20Ring." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+          <div class="product-card fade-up">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=300&fit=crop" alt="Gold chain" loading="lazy">
+            <div class="product-info">
+              <span class="product-category">Chains</span>
+              <h4>Gold Chain</h4>
+              <p>Classic chain for everyday wear.</p>
+              <span class="price-ask">Price Available on Inquiry</span>
+              <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20the%20Gold%20Chain." target="_blank" rel="noopener" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OCCASION ================= -->
+    <section class="occasion">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Jewellery for Every Occasion</h2>
+          <p class="section-sub fade-up">From everyday elegance to bridal celebrations, find the right piece for your moment.</p>
+        </div>
+        <div class="occasion-grid">
+          <div class="occasion-card fade-up">
+            <img src="https://plus.unsplash.com/premium_photo-1681276170281-cf50a487a1b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RXZlcnlkYXklMjBFbGVnYW5jZSUyMGpld2xsYXJ5fGVufDB8fDB8fHww" alt="Everyday elegant jewellery" loading="lazy">
+            <div class="occasion-overlay">
+              <h3>Everyday Elegance</h3>
+              <p>Simple jewellery styles for regular wear.</p>
+            </div>
+          </div>
+        
+          <div class="occasion-card fade-up">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=500&fit=crop" alt="Engagement jewellery" loading="lazy">
+            <div class="occasion-overlay">
+              <h3>Engagement</h3>
+              <p>Elegant rings and jewellery for engagement moments.</p>
+            </div>
+          </div>
+          <div class="occasion-card fade-up">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=500&fit=crop" alt="Gift jewellery" loading="lazy">
+            <div class="occasion-overlay">
+              <h3>Gifts</h3>
+              <p>Jewellery ideas for meaningful gifts and special occasions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY CHOOSE ================= -->
+    <section class="why-choose" id="why-us">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Why Choose Al Faizan Jewellers</h2>
+          <p class="section-sub fade-up">A local jewellery store focused on variety, personal service, and easy contact.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card fade-up">
+            <i class="fas fa-gem"></i>
+            <h3>Elegant Selection</h3>
+            <p>Explore a range of jewellery styles and designs.</p>
+          </div>
+          <div class="feature-card fade-up">
+            <i class="fas fa-calendar-heart"></i>
+            <h3>Special Occasion Styles</h3>
+            <p>Options for weddings, engagements and celebrations.</p>
+          </div>
+          <div class="feature-card fade-up">
+            <i class="fas fa-comments"></i>
+            <h3>Personal Assistance</h3>
+            <p>Contact the store directly for product and availability inquiries.</p>
+          </div>
+          <div class="feature-card fade-up">
+            <i class="fas fa-map-pin"></i>
+            <h3>Convenient Location</h3>
+            <p>Located in Sector 15 C, Orangi Town, Karachi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CARE ================= -->
+    <section class="care">
+      <div class="container care-grid">
+        <div class="care-image fade-up">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=600&fit=crop" alt="Jewellery care and storage" loading="lazy">
+        </div>
+        <div class="care-content fade-up">
+          <h2 class="section-title">Take Care of Your Jewellery</h2>
+          <p class="section-sub" style="color: rgba(255,255,255,0.6);">Simple general tips to help maintain the beauty of your jewellery pieces.</p>
+          <ul class="care-list">
+            <li><i class="fas fa-check-circle"></i><p>Keep jewellery away from harsh chemicals.</p></li>
+            <li><i class="fas fa-check-circle"></i><p>Store pieces separately to reduce scratching.</p></li>
+            <li><i class="fas fa-check-circle"></i><p>Keep jewellery dry when appropriate.</p></li>
+            <li><i class="fas fa-check-circle"></i><p>Clean pieces according to their material.</p></li>
+            <li><i class="fas fa-check-circle"></i><p>Ask a professional jeweller for care advice for valuable pieces.</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Jewellery Gallery</h2>
+          <p class="section-sub fade-up">A glimpse of the jewellery and displays you can find at our store.</p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-item fade-up" data-src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop">
+            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop" alt="Gold jewellery close-up" loading="lazy">
+          </div>
+          <div class="gallery-item fade-up" data-src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop" alt="Jewellery display case" loading="lazy">
+          </div>
+          <div class="gallery-item fade-up" data-src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop" alt="Gold ring" loading="lazy">
+          </div>
+          <div class="gallery-item fade-up" data-src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop" alt="Gold necklace" loading="lazy">
+          </div>
+          <div class="gallery-item fade-up" data-src="https://images.unsplash.com/photo-1630019852942-f89202989a59?w=800&h=800&fit=crop">
+            <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?w=400&h=400&fit=crop" alt="Gold earrings" loading="lazy">
+          </div>
+       
+          <div class="gallery-item fade-up" data-src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&h=800&fit=crop">
+            <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop" alt="Gold bracelet" loading="lazy">
+          </div>
+      
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <img src="" alt="Enlarged jewellery image" id="lightboxImg">
+    </div>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="experience">
+      <div class="container">
+        <div class="experience-box fade-up">
+          <div>
+            <h2>Find a Piece for Your Special Moment</h2>
+            <p>Explore jewellery styles and contact Al Faizan Jewellers to ask about available designs, sizes and current prices.</p>
+          </div>
+          <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener" class="btn btn-gold" style="padding:16px 36px;"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW TO ================= -->
+    <section class="how-to">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">How To Inquire</h2>
+          <p class="section-sub fade-up">A simple process to find and inquire about your jewellery piece.</p>
+        </div>
+        <div class="steps">
+          <div class="step fade-up">
+            <div class="number">01</div>
+            <i class="fas fa-search"></i>
+            <h3>Explore</h3>
+            <p>Browse jewellery collections.</p>
+          </div>
+          <div class="step fade-up">
+            <div class="number">02</div>
+            <i class="fab fa-whatsapp"></i>
+            <h3>Ask</h3>
+            <p>Send a WhatsApp inquiry about a jewellery piece.</p>
+          </div>
+          <div class="step fade-up">
+            <div class="number">03</div>
+            <i class="fas fa-store"></i>
+            <h3>Visit</h3>
+            <p>Visit Al Faizan Jewellers in Sector 15 C, Orangi Town, Karachi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LOCATION ================= -->
+    <section class="location">
+      <div class="container">
+        <div class="location-card fade-up">
+          <div>
+            <h2>Al Faizan Jewellers</h2>
+            <p><i class="fas fa-map-pin" style="margin-right:8px;"></i> Sector 15 C, Orangi Town, Karachi, Pakistan</p>
+          </div>
+          <a href="https://www.google.com/maps/search/Al+Faizan+Jewellers,+Sector+15+C,+Orangi+Town,+Karachi,+Pakistan" target="_blank" rel="noopener" class="btn btn-gold"><i class="fas fa-directions"></i> Get Directions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT (NO IMAGES) ================= -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Contact Us</h2>
+          <p class="section-sub fade-up">Reach out for jewellery availability, prices, or any questions.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info fade-up">
+            <h3>Get in Touch</h3>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+923132576465">03132576465</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener">+923132576465</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>Sector 15 C, Orangi Town, Karachi, Pakistan</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>Please contact the store for current opening hours.</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form fade-up">
+            <h3>Jewellery Inquiry Form</h3>
+            <form id="inquiryForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Your phone number" required>
+              </div>
+              <div class="form-group">
+                <label for="product">Jewellery Type</label>
+                <input type="text" id="product" placeholder="e.g., Gold ring, necklace" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="I would like to ask about..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold btn-block"><i class="fab fa-whatsapp"></i> Send Inquiry on WhatsApp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title fade-up">Frequently Asked Questions</h2>
+          <p class="section-sub fade-up">Answers to common questions about our store and jewellery.</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item fade-up">
+            <button class="faq-question">Where is Al Faizan Jewellers located? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Al Faizan Jewellers is located in Sector 15 C, Orangi Town, Karachi, Pakistan.</p></div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">What types of jewellery can I inquire about? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Customers can ask about rings, necklaces, earrings, bangles, bracelets, chains, pendants, bridal jewellery and other available pieces.</p></div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">Can I ask about jewellery prices on WhatsApp? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. Customers can contact the store through WhatsApp to ask about current prices.</p></div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">Can I ask about a specific jewellery design? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. Customers can send the product name or describe the jewellery they are looking for.</p></div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">How can I contact Al Faizan Jewellers? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Call <strong>03132576465</strong> or contact the store through WhatsApp.</p></div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">Can I get directions to the store? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. Use the Google Maps button.</p></div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">Do you offer jewellery delivery? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Please contact the store directly to ask about current delivery options. We do not claim delivery unless confirmed.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FINAL CTA ================= -->
+    <section class="final-cta">
+      <div class="container fade-up">
+        <h2>Find Jewellery for Your Special Moment</h2>
+        <p>Explore our jewellery categories or contact Al Faizan Jewellers to ask about available designs, sizes and prices.</p>
+        <div>
+          <a href="tel:+923132576465" class="btn btn-gold"><i class="fas fa-phone-alt"></i> Call Now</a>
+          <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Al Faizan Jewellers</h3>
+          <p>Sector 15 C, Orangi Town, Karachi, Pakistan</p>
+          <p>Phone: <a href="tel:+923132576465">03132576465</a></p>
+          <p>WhatsApp: <a href="https://wa.me/923132576465?text=Hello%20Al%20Faizan%20Jewellers%2C%20I%20would%20like%20to%20inquire%20about%20your%20available%20jewellery%20designs%20and%20prices." target="_blank" rel="noopener">+923132576465</a></p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#collections">Collections</a>
+          <a href="#jewellery">Jewellery</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Visit Us</h4>
+          <p>Sector 15 C, Orangi Town, Karachi</p>
+          <p style="margin-top:12px;font-size:0.85rem;color:#666;">Please contact for opening hours.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Al Faizan Jewellers. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    (function() {
+      'use strict';
+
+      // ---------- MOBILE MENU ----------
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', function() {
+          mobileMenu.classList.toggle('active');
+          const icon = hamburger.querySelector('i');
+          if (mobileMenu.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+          } else {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          }
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            const icon = hamburger.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          });
+        });
+      }
+
+      // ---------- ACTIVE NAV LINK ON SCROLL ----------
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-links a');
+
+      function setActiveLink() {
+        let current = '';
+        const scrollPos = window.scrollY + 120;
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === '#' + current) {
+            link.classList.add('active');
+          }
+        });
+      }
+
+      window.addEventListener('scroll', setActiveLink);
+      setActiveLink();
+
+      // ---------- SMOOTH SCROLLING ----------
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            const headerOffset = 80;
+            const elementPosition = target.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // ---------- FAQ ACCORDION ----------
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        question.addEventListener('click', () => {
+          faqItems.forEach(other => {
+            if (other !== item) {
+              other.classList.remove('active');
+            }
+          });
+          item.classList.toggle('active');
+        });
+      });
+
+      // ---------- GALLERY LIGHTBOX ----------
+      const galleryGrid = document.getElementById('galleryGrid');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightboxImg');
+      const lightboxClose = document.getElementById('lightboxClose');
+
+      if (galleryGrid) {
+        galleryGrid.querySelectorAll('.gallery-item').forEach(item => {
+          item.addEventListener('click', () => {
+            const src = item.getAttribute('data-src');
+            if (src) {
+              lightboxImg.src = src;
+              lightbox.classList.add('active');
+              document.body.style.overflow = 'hidden';
+            }
+          });
+        });
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      if (lightboxClose) {
+        lightboxClose.addEventListener('click', closeLightbox);
+      }
+
+      if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) {
+            closeLightbox();
+          }
+        });
+      }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+          closeLightbox();
+        }
+      });
+
+      // ---------- JEWELLERY INQUIRY FORM ----------
+      const inquiryForm = document.getElementById('inquiryForm');
+      if (inquiryForm) {
+        inquiryForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          const name = document.getElementById('name').value.trim();
+          const phone = document.getElementById('phone').value.trim();
+          const product = document.getElementById('product').value.trim();
+          const message = document.getElementById('message').value.trim();
+
+          if (!name || !phone || !product || !message) {
+            alert('Please fill in all fields before sending.');
+            return;
+          }
+
+          const whatsappMessage = `Hello Al Faizan Jewellers,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AJewellery Type: ${encodeURIComponent(product)}%0AMessage: ${encodeURIComponent(message)}%0A%0AI would like to inquire about your available jewellery designs and prices.`;
+
+          const whatsappURL = `https://wa.me/923132576465?text=${whatsappMessage}`;
+
+          window.open(whatsappURL, '_blank');
+        });
+      }
+
+      // ---------- SCROLL ANIMATIONS ----------
+      const fadeElements = document.querySelectorAll('.fade-up');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      fadeElements.forEach(el => observer.observe(el));
+
+      // ---------- BACK TO TOP ----------
+      const backToTop = document.getElementById('backToTop');
+      if (backToTop) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 500) {
+            backToTop.classList.add('show');
+          } else {
+            backToTop.classList.remove('show');
+          }
+        });
+
+        backToTop.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      // ---------- STICKY NAVBAR SHADOW ----------
+      const header = document.getElementById('header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 10) {
+          header.style.boxShadow = '0 4px 30px rgba(0,0,0,0.15)';
+        } else {
+          header.style.boxShadow = 'none';
+        }
+      });
+
+    })();
+  </script>
+</body>
+</html>
